@@ -1,0 +1,26 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0;}
+img{display:block;}
+a,a:hover,a:active,a:visited,a:focus{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+h1,h2,h3,h4,h5,b,strong{font-weight:100;}
+i,em{font-style:normal;}
+.clear:after{content:"."; clear:both; display:block; height:0; overflow:hidden; visibility:hidden;}
+
+hr{
+  margin:0;
+  border:0
+}
+
+table{
+  border-collapse: separate;
+}
+
+/*自定义table*/
+.custom-el-table .cell,.custom-el-table th>div{
+  padding-left: 10px;
+  padding-right: 10px;
+}
